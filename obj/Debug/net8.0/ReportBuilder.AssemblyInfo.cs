@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ReportBuilder")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+15c5b64de215af503ea0301fc3b8b13d4d634356")]
 [assembly: System.Reflection.AssemblyProductAttribute("ReportBuilder")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ReportBuilder")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

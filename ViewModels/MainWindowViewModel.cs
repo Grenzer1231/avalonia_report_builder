@@ -1,8 +1,14 @@
-﻿namespace ReportBuilder.ViewModels;
+﻿using ReportBuilder.Services;
+
+namespace ReportBuilder.ViewModels;
 
 public class MainWindowViewModel : ViewModelBase
 {
-#pragma warning disable CA1822 // Mark members as static
-    public string Greeting => "Welcome to Avalonia!";
-#pragma warning restore CA1822 // Mark members as static
+    public PersonsListViewModel PersonsList {get;}
+    public MainWindowViewModel()
+    {
+        var service = new PersonsService();
+        PersonsList = new PersonsListViewModel(service.GetPeople());
+
+    }
 }

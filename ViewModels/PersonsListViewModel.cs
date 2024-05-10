@@ -7,11 +7,11 @@ namespace ReportBuilder.ViewModels
 {
     public class PersonsListViewModel
     {
-        public ObservableCollection<Persons> PersonsList {get; }
+        public ObservableCollection<Persons> ListItems {get; }
 
         public PersonsListViewModel(IEnumerable<Persons> persons)
         {
-            PersonsList = new ObservableCollection<Persons>(persons);
+            ListItems = new ObservableCollection<Persons>(persons);
         }
     }
 }

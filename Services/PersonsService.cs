@@ -4,7 +4,7 @@ using ReportBuilder.DataModels;
 
 namespace ReportBuilder.Services
 {
-    public class PersonsServices
+    public class PersonsService
     {
         public IEnumerable<Persons> GetPeople() => new[]
         {
